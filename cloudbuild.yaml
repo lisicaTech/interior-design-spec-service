@@ -11,7 +11,7 @@ steps:
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  arg:
+  args:
   - 'run'
   - 'deploy'
   - 'interior-design-spec-service'
